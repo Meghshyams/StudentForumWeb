@@ -13,6 +13,4 @@ This is the website is like a social hub or social networking where we can conne
 Administrator plays vital role in this project because he is the only person who can manage all the stuff which is in this project. Document validation can do by the administrator only.   
 
 
-Website live on: http://studentforum.somee.com
-
 
