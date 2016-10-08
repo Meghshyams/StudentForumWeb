@@ -2,6 +2,8 @@
 An Asp.net StudentForum Website.
 
 ⦁	INTRODUCTION
+
+
 The simplistic definition of a forum/room is a place where people have the ability to start communication and reply to other people's threads. A member of the forum posts a message, which is visible to registered user in that forum. We can get educational information on this site. We can exchanges the information with the registered users.
 
 As we all are aware about the Forum. The dictionary meaning of the Forum is nothing but a platform where all we can share our views easily or publically with each other. Forum/room is the place where we can give our information or knowledge to others. In this website that is The Student’s Room (Student Forum), we are using three main modules that is First module is Of Administrator, Second Module is of Expert and Third is of Student Module.
