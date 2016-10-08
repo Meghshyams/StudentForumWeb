@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ExpertMasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body bgcolor="#003388" alink=white vlink=white link=white  >
+    <form id="form1" runat="server">
+    <div style="border-style:solid;background-image:url('images/bgblue.jpg');border-color:#0088cc;border-width:5px" >
+    <div style="background-color:#0088cc;text-align:right" >
+    <font face=impact size=6 color=white >The Student&#39;s Room</font>
+    </div>
+        <table style="width: 100%;">
+            <tr valign="top" >
+                <td style="width:200px" >
+                    &nbsp;
+                    <br />
+                    <center>
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/add_user.png" 
+                        style="margin-left: 0px" Width="180px" />
+                    <br />
+                    <hr size="3px" style="color: #0088CC" />
+                    <asp:Label ID="Label1" runat="server" Font-Names="Verdana" Font-Size="X-Large" 
+                        Text="Expert"></asp:Label>
+                    <hr size="3px" style="color: #0088CC" />
+                    </center>
+                    <asp:Menu ID="Menu1" runat="server">
+                        <Items>
+                            
+                            <asp:MenuItem Text="New Queries" Value="New Queries" NavigateUrl = "~/ExpertProfile.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Logout" Value="Logout" NavigateUrl = "~/Index.aspx"></asp:MenuItem>
+                        </Items>
+                        <StaticHoverStyle BackColor="#000099" ForeColor="#66FFFF" />
+                        <StaticMenuItemStyle BackColor="Blue" BorderColor="#3399FF" BorderStyle="Solid" 
+                            BorderWidth="1px" Font-Names="Verdana" Font-Size="Small" ForeColor="White" 
+                            HorizontalPadding="10px" VerticalPadding="3px" Width="180px" />
+                    </asp:Menu>
+                </td>
+                <td  >
+                    &nbsp;
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            </table>
+    </div>
+    </form>
+</body>
+</html>

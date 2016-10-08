@@ -1,0 +1,25 @@
+﻿User Management
+------------------------
+1] Student Registration
+2] Expert Registration [ by admin ]
+3] Login
+4] Profile Display
+5] Profile Edit
+
+Query Management
+----------------------
+1] Query Submit
+2] Submit Answer by Student
+3] Submit Answer by Expert
+4] Query Search
+5] Query Ratings
+
+Document Management
+--------------------
+1] Upload Document [programs,Seminars,PDFs etc ]
+2] Search Documents
+3] View Documents
+4] Download Docuemnts
+
+
+
