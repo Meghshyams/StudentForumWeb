@@ -22,5 +22,14 @@ An Asp.net, MySql based StudentForum Website.
 
 - Document validation can do by the administrator only.   
 
+## Technology Used?
+  - Asp.Net
+  - C#
+  - Visual Studio
+  - MySQL
+  - SQL Server 8
+
+  
+
 
 
